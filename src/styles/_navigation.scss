@@ -1,0 +1,46 @@
+nav{
+  background-color: $theme-color;
+  margin-top: 1rem;
+
+
+  ul{
+    list-style: none;
+    font-size: 80%;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    li{
+      display: inline-block;
+      margin-left: 20px;
+      height: 100%;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      &:first-child{
+        background-color: $theme-color-dark;
+      }
+    }
+
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    place-items: center;
+
+    ion-icon{
+      margin-left: 10px;
+      font-size: 90%;
+    }
+
+    .menu-burger-icon{
+      font-size: 30px !important;
+      display: none !important;
+    }
+
+  }
+
+}
